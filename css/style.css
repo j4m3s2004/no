@@ -668,7 +668,6 @@ footer {
 
 
 
-/* TABLET (width < 1024px) */
 @media (width < 1024px) {
     .footer-content {
         grid-template-columns: 1fr 1fr;
@@ -678,7 +677,7 @@ footer {
     }
 }
 
-/* MOBILE (width < 768px) */
+
 @media (width < 768px) {
     .card-grid {
         grid-template-columns: 1fr;
@@ -693,16 +692,8 @@ footer {
     .blog-grid {
         grid-template-columns: 1fr;
     }
-    .top-container {
-        display: none;
-    }
-    .nav-links {
-        display: none;
-    }
-
 }
 
-/* SMALL PHONE (width < 400px) */
 @media (width < 400px) {
     .card-grid {
         grid-template-columns: 1fr;
